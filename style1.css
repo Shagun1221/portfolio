@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+}
+
+/* Style the portfolio project cards */
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
